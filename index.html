@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Void</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com"> -->
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet"> -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"> -->
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="logo">
+          <a href="#">Void</a>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#home">Profile</a></li>
+            <li><a href="#about">Tentang</a></li>
+            <li><a href="#education">Pendidikan</a></li>
+            <li><a href="#portfolio">Projek</a></li> 
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main>
+        <div id="home" class="hero">
+          <div class="hero-image">
+            <img
+              src="Assets/WhatsApp Image 2024-10-28 at 20.14.54_05f336b7.png"
+              alt="Foto Profil [Rafly]"
+            />
+          </div>
+          <div class="hero-content">
+            <h2>Haii Nama Saya Rafly Bagus Ardiansyah</h2>
+            <p>
+              Saya adalah seorang siswa SMKN 1 BAWANG yang memiliki
+              minat dalam teknologi.
+            </p>
+            <!-- <a href="CV.pdf" download class="btn">Download CV</a> -->
+          </div>
+        </div>
+
+        <div id="about" class="about">
+          <h2>Tentang Saya</h2>
+          <div class="about-content">
+            <p>
+              Aku Adalah Seorang Anak RPL
+                    Mahasiswa RPL bukan hanya sekadar menulis kode, tapi juga merancang solusi.
+                     Di balik setiap baris program yang dibuat, ada kerja keras dan semangat yang tak pernah padam.
+                    Mereka belajar menghadapi error, bukan sebagai hambatan, tetapi sebagai tantangan untuk terus berkembang Bagi anak RPL, setiap proyek adalah kesempatan untuk menciptakan sesuatu yang bermanfaat dan berinovasi demi masa depan teknologi
+            </p>
+            <div class="skills">
+              <h3>Keterampilan</h3>
+              <ul>
+                <li>Saya bisa mennguakan HTML</li>
+                <li>Saya bisa mennguakan CSS</li>
+                <li>Saya bisa Men designd</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div id="education" class="education">
+          <h2>Pendidikan</h2>
+          <div class="education-grid">
+            <div class="education-item">
+              <h3>SDN 1 Pucang</h3>
+              <p>Tahun</p>
+              <p>2015-2021</p>
+            </div>
+            <div class="education-item">
+              <h3>MTS N 1 BANJARNEGARA</h3>
+              <p>Tahun</p>
+              <p>2021-2014</p>
+            </div>
+            <div class="education-item">
+              <h3>SMKN 1 BWANG</h3>
+              <p>Jurusan RPL, Tahun</p>
+              <p>2024-2027</p>
+            </div>
+          </div>
+        </div>
+        
+
+        <div id="portfolio" class="portfolio">
+                <h2>Portofolio</h2>
+                <div class="portfolio-grid">
+                    <div class="project-item">
+                        <img src="Assets/p.jpg" alt="Proyek 1">
+                        <h3>Aplikasi</h3>
+                        <p>Sebuah Aplikasi Untuk kas kelas</p>
+                        <a target="_blank" href="https://www.figma.com/design/wckp8n2u3El2Phzqqc9wmz/Untitled?node-id=0-1&p=f&t=7WsYSgvzZ60R1EOE-0" class="btn">Detail</a>   
+                    </div>
+                    <div class="project-item">
+                        <img src="Assets/oo.jpg" alt="Proyek 2">
+                        <h3>Web Serulingmas</h3>
+                        <p>Sebuah web Untuk mengecek apa saja yang ada si serilingmas</p>
+                        <a target="_blank" href="https://www.figma.com/design/qkLiGrXvDcHBUMYuEpWUEw/PSAS_RAFLY-BAGUS-ARDIANSYAH?node-id=0-1&p=f&t=Uinq2o6hT142DWvs-0" class="btn">Detail</a> 
+                    </div>
+                </div>
+            </div> 
+
+        <div id="contact" class="contact">
+          <h2>Kontak</h2>
+          <div class="contact-wrapper">
+            <div class="contact-left">
+              <h3>Kirim Pesan</h3>
+              <form
+                action="mailto:Raflyy122@gmail.com"
+                method="post"
+                enctype="text/plain"
+              >
+                <div class="form-group">
+                  <label for="name">Nama:</label>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Nama Anda"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="email">Email:</label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Email Anda"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="message">Pesan:</label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    placeholder="Tulis pesan Anda..."
+                    required
+                  ></textarea>
+                </div>
+                <div class="form-group">
+                  <button type="submit" class="btn">Kirim Pesan</button>
+                </div>
+              </form>
+            </div>
+
+            <div class="contact-right">
+              <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1176.304226208867!2d109.65445955973082!3d-7.398633257398804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sid!4v1746579161685!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+
+                </iframe>
+              </div>
+            </div>
+          </div>
+
+          <div class="social-icons">
+            <a href="#"
+              ><img src="imgaes/Sosial Media/TikTok_Logo.jpeg" alt=""
+            /></a>
+            <a href="#"
+              ><img src="imgaes/Sosial Media/Instagram_logo.webp" alt=""
+            /></a>
+            <a href="#"
+              ><img src="imgaes/Sosial Media/Youtube_logo.png" alt=""
+            /></a>
+          </div>
+          <!--             
+                <div class="social-icons">
+                    <a href="#" target="_blank"><i class="fab fa-tiktok"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div> -->
+        </div>
+      </main>
+
+      <footer>
+        <p>&copy; 2025 Rapli Bagus A. Hak Cipta Dilindungi.</p>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
